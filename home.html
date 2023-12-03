@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            AlgoAlly
+        </title>
+        <link rel="icon" href="Algo.jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            body
+            {
+                background-color: black;
+                color: white;
+            }
+            .menu
+            {
+                /*background-color: #66b3ff;*/
+                color: white
+            }
+            .menu a
+            {
+                float: right;
+                display: inline-block;
+                font-size: 20px;
+               /* padding: 20px;*/
+                text-decoration: none;
+                color: white;
+            }
+            #types
+            {
+                float: left;
+                clear: right;
+                text-align: center;
+                font-size: 40px;
+                width: 500px;
+                height: 250px;
+            }
+            a:link
+            {
+                color: white;
+                text-decoration: none;
+            }
+            #heading
+            {
+                font-family: fantasy;
+                margin-left: 40px;
+                margin-top: 20px;
+                font-size: 50px;
+            }
+            #title
+            {
+                text-align: center;
+                width: 440px;
+            }
+            * {
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Nav-bar-->
+        <div class="menu"><br>
+        <h1 id="heading" style="float: left"><span style="color:lightskyblue">Algo</span><span style="color:grey">Ally</span></h1>
+        <a href=""><img src="Algo.jpg" width="200px" height="200px"></a>
+        </div> 
+       <br><br><br><br><br>
+        <!--Carousel-->
+        <div class="container mt-5">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Learn.png" alt="Image 1" style="width:100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Earn.png" alt="Image 2" style="width:100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Expend.png" alt="Image 3" style="width:100%;">
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <!--marquee-->
+        <marquee>
+            <div id="types">
+                <a href="algorithm.htm">
+                <img src="sort.gif" style="width:50%;">
+                <div id="title">
+                    <h1>Visualisation</h1>
+                </div>
+                </a>
+            </div>
+            <div id="types">
+                <a href="bot">
+                <img src="bot.gif" style="width:40%;">
+                <div id="title">
+                    <h1>Chatbot</h1>
+                </div>
+                </a>
+            </div>
+            <div id="types">
+                <a href="algo">
+                <img src="algorithms.gif" style="width:50%;">
+                <div id="title">
+                    <h1>Algorithms</h1>
+                </div>
+                </a>
+            </div>
+        <br><br><br>
+
+        </marquee>
+    </body>
+</html>
